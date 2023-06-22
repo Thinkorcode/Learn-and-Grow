@@ -1,0 +1,576 @@
+*{
+	margin: 0;
+	padding: 0;
+
+     box-sizing: border-box;
+}
+
+#top
+{
+	height: 5px;
+	width: 98.75vw;
+	background-color: black;
+	border: px solid red;
+	position: relative;
+}
+
+#headerbg
+{
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	display: inline-block;
+	position: relative;
+	display: flex;
+	border: px solid red;
+}
+
+#logo
+{
+	height: 60px;
+	width: 17%;
+	border: px solid red;
+	background-image: url("ni_logo2.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+	position: relative;
+
+
+}
+
+#menu{
+	
+       border: px solid yellow;
+       color: white;
+       left: px;
+       bottom: px;
+        position: ;
+       width: 80%;
+       height: 50px;
+        margin-bottom: px;
+        font-size: 30px;
+        list-style: none;
+        text-align: center;
+        background-color: black;
+        position: relative;
+}
+
+/*div ul{
+	list-style: none;
+	background-color: orange;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+	
+	
+
+}*/
+
+div li{
+   		display: inline-block;
+   		padding: 7px;
+   		background-color: ;
+   		height: 8px;
+	
+}
+
+div a
+{
+	
+	text-decoration: none;
+	width: 120%;
+	line-height: 7px;
+	display: inline-block;
+	padding: 17px ;
+	padding-top: 14px;
+	font-size: 13px;
+/*	text-transform: uppercase;*/
+	font-weight: bold;
+	border-radius: px;
+	position: relative;
+	color: white;
+	background-color: ;
+
+}
+
+ul li a::before 
+{
+	content: "";
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 15px;
+	bottom: 7px;
+/*	background-color: cornflowerblue;*/
+
+	border: 5px solid rgba(211, 12, 111, 1);
+    border-width: 0 0 2px 2px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+ul li a::after 
+{
+	content: "";
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 10px;
+	right: 7px;
+/*	background-color: cornflowerblue;*/
+
+	border: 5px solid rgba(211, 12, 111, 1);
+    border-width: 2px 2px 0 0;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+ul li a:hover::before
+{
+	left: -5px;
+	bottom: -5px;
+	opacity: 1;
+}
+ul li a:hover::after
+{
+	top: -5px;
+	right: -5px;
+	opacity: 1;
+
+}
+ul li a:hover
+{
+	background-color: rgba(211, 12, 111, 1);
+	color: #fff;
+}
+/*#menu a:hover{
+	background: ;
+	font-family: elephant;
+	color: ;
+}*/
+
+.hackingbg
+{
+	height: 400px;
+	width: 100%;
+	background-image: url("HEADER-Zendesk-webpageweb_6.jpg");
+	background-size: cover;
+	border: px solid blueviolet;
+	position: relative;
+
+}
+
+#textdiv
+{
+	height: 170px;
+	width: 49%;
+	border: px solid yellow;
+	position: absolute;
+	margin-left: 95px;
+	margin-top: 50px;
+	font-size: px;
+}
+h1 
+{
+	font-size: 45px;
+}
+h3{
+	padding-left: 100px;
+}
+#webfont
+{
+	color: white;
+	padding: 10px;
+
+}
+
+#signup{
+
+	height: 37px;
+	width: 23%;
+	background-color: orange;
+	padding-left: 10px;
+	text-align: center;
+	border-radius: 0px;
+	position: relative;
+	margin-left: 170px;
+	line-height: 0px;
+
+
+
+}
+#signup a{
+	
+	margin-left: -20px;
+	color: black;
+	padding-top: 15px;
+}
+
+#signup::before 
+{
+	content: "";
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 15px;
+	bottom: 7px;
+/*	background-color: cornflowerblue;*/
+
+	border: 5px solid rgba(211, 12, 111, 1);
+    border-width: 0 0 2px 2px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+#signup::after 
+{
+	content: "";
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 10px;
+	right: 7px;
+/*	background-color: cornflowerblue;*/
+
+	border: 5px solid rgba(219, 12, 111, 1);
+    border-width: 2px 2px 0 0;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+#signup:hover::before
+{
+	left: -5px;
+	bottom: -5px;
+	opacity: 1;
+}
+#signup:hover::after
+{
+	top: -5px;
+	right: -5px;
+	opacity: 1;
+
+}
+#signup:hover
+{
+	background-color: rgba(219, 126, 111, 1);
+	color: #fff;
+}
+
+/*
+	 border: 0px solid;
+       color: black;
+       position: absolute;
+       
+       background-color: whitesmoke;
+       width: 10%;
+       border-radius: 15px;
+      
+       box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+
+    list-style: none;
+	background-color: ;
+	padding: 0;
+	margin: 0;
+
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+     border-radius: 15px;   
+    
+    background-color: whitesmoke;
+	 color: black;
+	width: 100%;
+	 text-transform: lowercase;
+	    */
+}
+
+
+
+
+
+	
+
+#signup :hover{
+
+	 background-color: ;
+    font-family: cursive;
+    
+}
+
+#container
+{
+	height: 40px;
+	width: 40px;
+	background-color: ;
+	margin-left: 93.50vw;
+	border:px solid red;
+	border-radius: 50px;
+	
+	margin-top: 10px;
+	position: absolute;
+	/*background: rgba(225, 225, 225, .4);*/
+}
+.icon{
+	color: white;
+}
+
+#container .search{
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#container.active{
+	width: 360px;
+}
+
+/*
+#Explorecourses
+{
+	height: 35px;
+	width: 105%;
+	background-color: darkorange;
+	text-align: center;
+	border-radius: 5px;
+	margin: 25px;
+	padding-top: 10px;
+	position: relative;
+}
+
+#Explorecourses:hover{
+	background: ;
+	font-family: fantasy;
+	color: ;
+}
+*/
+
+
+/*
+.search-bar{
+	width: 35vw;
+	height: 35px;
+	
+	background-color: white;
+
+	display: flex;
+	align-items: ;
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-left: 230px;
+	margin-top: 15px;
+	position: ;
+}
+
+li {
+	color: black;
+}
+
+.search-bar input{
+	background: transparent;
+	flex: 1;
+	border: 0;
+	outline: none;
+	font-size: 15px;
+	
+
+}
+::placeholder{
+	color: ;
+}
+.search-bar button img{
+	width: 20px;
+	height: 20px;
+
+}
+.search-bar button{
+	border: 0;
+	border-radius: 40%;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	cursor: pointer;
+
+}*/
+#populercourse
+{
+	height: 40px;
+	width: 15%;
+	background-color: white;
+	border: px solid red;
+	color: black;
+	text-transform: uppercase;
+	position: absolute;
+	margin-left: 44vw;
+	padding: 10px;
+
+}
+
+#populercourse::after{
+	content: "";
+	width: 25%;
+	height: 3px;
+	background-color: coral;
+	margin-left: 47px;
+	display: block;
+	position: relative;
+	left: 1;
+}
+
+#parentcoursediv
+{
+	height: 290px;
+	width: 85vw;
+	background-color: white;
+	position: relative;
+	margin: 100px;
+	display: inline-block;
+	display: flex;
+
+}
+
+#ethicalhacking
+{
+	height: 270px;
+	width: 20vw;
+	background-color: ;
+	border: px solid black;
+	margin: auto;
+}
+#ethicalbg
+{
+	height: 150px;
+	width: 20vw;
+	background-image: url("ethical hacking.gif");
+	background-size: cover;
+}
+#ethicaltext
+{
+	height: 120px;
+	width: 20vw;
+	background-color: navajowhite;
+	position: absolute;
+	
+}
+#ethicalhackingtextinsidediv
+{
+	height: 90px;
+	width: 17vw;
+	background-color: ;
+	margin-left: 20px;
+	margin-top: 23px;
+	line-height: 13px;
+
+}
+
+#dataanalytics
+{
+	height: 270px;
+	width: 20vw;
+	background-color: ;
+	border: 1px solid black;
+	margin: auto;
+}
+#analyticsbg
+{
+	height: 150px;
+	width: 20vw;
+	background-image: url("data analytics.gif");
+	background-size: cover;
+}
+#analyticstext
+{
+	height: 120px;
+	width: 20vw;
+	background-color: navajowhite;
+	padding-left: 20px;
+	position: absolute;
+}
+#analyticstextinsidediv
+{
+	height: 90px;
+	width: 17vw;
+	background-color: ;
+	margin-left: 20px;
+	margin-top: 23px;
+	line-height: 13px;
+
+}
+#datascience
+{
+	height: 270px;
+	width: 20vw;
+	background-color: ;
+	border: 1px solid black;
+	margin: auto;
+}
+#datasciencebg{
+	height: 150px;
+	width: 20vw;
+	background-image: url("data science.gif");
+	background-size: cover;
+}
+#datasciencetext
+{
+	height: 120px;
+	width: 20vw;
+	background-color: navajowhite;
+	padding-left: 20px;
+	position: absolute;
+}
+#datasciencetextinsidediv
+{
+	height: 90px;
+	width: 17vw;
+	background-color: ;
+	margin-left: 20px;
+	margin-top: 23px;
+	line-height: 13px;
+}
+#networksecurity
+{
+	height: 270px;
+	width: 20vw;
+	background-color: ;
+	border: 1px solid black;
+	margin: auto;
+}
+#networksecuritybg
+{
+	height: 150px;
+	width: 20vw;
+	background-image: url("network security.gif");
+	background-size: cover;
+}
+#networksecuritytext
+{
+	height: 120px;
+	width: 20vw;
+	background-color: navajowhite;
+	padding-left: 20px;
+	position: absolute;
+}
+#networksecuritytextinsidediv
+{
+	height: 90px;
+	width: 17vw;
+	background-color: ;
+	margin-left: 20px;
+	margin-top: 23px;
+	line-height: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
